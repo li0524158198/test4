@@ -16,6 +16,9 @@
 		111C001C18F6A9DA00BCA7D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 111C001B18F6A9DA00BCA7D9 /* Default.png */; };
 		111C001E18F6A9DA00BCA7D9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111C001D18F6A9DA00BCA7D9 /* Default@2x.png */; };
 		111C002018F6A9DA00BCA7D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 111C001F18F6A9DA00BCA7D9 /* Default-568h@2x.png */; };
+		111C002918F6AA5200BCA7D9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111C002818F6AA5200BCA7D9 /* MainStoryboard.storyboard */; };
+		111C002E18F6B23300BCA7D9 /* BIDTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111C002D18F6B23300BCA7D9 /* BIDTaskDetailViewController.m */; };
+		111C003018F6C11900BCA7D9 /* BIDTaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111C002B18F6B1B300BCA7D9 /* BIDTaskListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,11 @@
 		111C001B18F6A9DA00BCA7D9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		111C001D18F6A9DA00BCA7D9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		111C001F18F6A9DA00BCA7D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		111C002818F6AA5200BCA7D9 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		111C002A18F6B1B300BCA7D9 /* BIDTaskListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BIDTaskListController.h; path = ../BIDTaskListController.h; sourceTree = "<group>"; };
+		111C002B18F6B1B300BCA7D9 /* BIDTaskListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BIDTaskListController.m; path = ../BIDTaskListController.m; sourceTree = "<group>"; };
+		111C002C18F6B23300BCA7D9 /* BIDTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDTaskDetailViewController.h; sourceTree = "<group>"; };
+		111C002D18F6B23300BCA7D9 /* BIDTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDTaskDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,11 @@
 			children = (
 				111C001818F6A9DA00BCA7D9 /* BIDAppDelegate.h */,
 				111C001918F6A9DA00BCA7D9 /* BIDAppDelegate.m */,
+				111C002818F6AA5200BCA7D9 /* MainStoryboard.storyboard */,
+				111C002A18F6B1B300BCA7D9 /* BIDTaskListController.h */,
+				111C002B18F6B1B300BCA7D9 /* BIDTaskListController.m */,
+				111C002C18F6B23300BCA7D9 /* BIDTaskDetailViewController.h */,
+				111C002D18F6B23300BCA7D9 /* BIDTaskDetailViewController.m */,
 				111C001018F6A9DA00BCA7D9 /* Supporting Files */,
 			);
 			path = MySegNav;
@@ -155,6 +168,7 @@
 				111C001C18F6A9DA00BCA7D9 /* Default.png in Resources */,
 				111C001E18F6A9DA00BCA7D9 /* Default@2x.png in Resources */,
 				111C002018F6A9DA00BCA7D9 /* Default-568h@2x.png in Resources */,
+				111C002918F6AA5200BCA7D9 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111C003018F6C11900BCA7D9 /* BIDTaskListController.m in Sources */,
 				111C001618F6A9DA00BCA7D9 /* main.m in Sources */,
 				111C001A18F6A9DA00BCA7D9 /* BIDAppDelegate.m in Sources */,
+				111C002E18F6B23300BCA7D9 /* BIDTaskDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
